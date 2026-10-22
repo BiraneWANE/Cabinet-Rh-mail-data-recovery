@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1587" height="1122" viewBox="0 0 1587 1122">
+<defs>
+<marker id="m2dd4bf" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2dd4bf"/></marker>
+<marker id="mfbbf24" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#fbbf24"/></marker>
+<marker id="ma78bfa" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#a78bfa"/></marker>
+<marker id="mfb7185" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#fb7185"/></marker>
+<marker id="m60a5fa" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#60a5fa"/></marker>
+<marker id="m94a8c2" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#94a8c2"/></marker>
+<radialGradient id="bg1" cx="85%" cy="0%" r="70%"><stop offset="0" stop-color="#1e3c69"/><stop offset="1" stop-color="#0d1828" stop-opacity="0"/></radialGradient>
+<radialGradient id="bg2" cx="0%" cy="100%" r="60%"><stop offset="0" stop-color="#11384a"/><stop offset="1" stop-color="#0d1828" stop-opacity="0"/></radialGradient>
+<linearGradient id="fun" x1="0" x2="1"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1587" height="1122" fill="#0d1828"/><rect width="1587" height="1122" fill="url(#bg1)"/><rect width="1587" height="1122" fill="url(#bg2)"/>
+<text x="56" y="66" font-family="DejaVu Sans" font-size="34" font-weight="800" fill="#e8eef7" text-anchor="start">Reprise de données : <tspan fill="#2dd4bf">14 ans d'archives mail ➜ 3 bases exploitables</tspan></text>
+<text x="56" y="98" font-family="DejaVu Sans" font-size="16" font-weight="400" fill="#94a8c2" text-anchor="start">Schéma d'architecture du pipeline · cabinet de recrutement spécialisé en expertise comptable</text>
+<rect x="36" y="128" width="250" height="420" rx="18" fill="#ffffff" fill-opacity="0.025" stroke="#2b4a73" stroke-dasharray="6 6"/>
+<text x="52" y="152" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#94a8c2" text-anchor="start">SOURCES</text>
+<rect x="300" y="128" width="1010" height="420" rx="18" fill="#ffffff" fill-opacity="0.025" stroke="#2b4a73" stroke-dasharray="6 6"/>
+<text x="316" y="152" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#94a8c2" text-anchor="start">PIPELINE PYTHON (mailrecovery)</text>
+<rect x="1324" y="128" width="228" height="420" rx="18" fill="#ffffff" fill-opacity="0.025" stroke="#2b4a73" stroke-dasharray="6 6"/>
+<text x="1340" y="152" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#94a8c2" text-anchor="start">BASES LIVRÉES</text>
+<rect x="52" y="160" width="150" height="56" rx="12" fill="#15263f" stroke="#2b4a73"/>
+<g transform="translate(80,188) scale(0.9)"><rect x="-18" y="-12" width="36" height="24" rx="3" fill="none" stroke="#fbbf24" stroke-width="2.5"/><path d="M-18 -10 L0 4 L18 -10" fill="none" stroke="#fbbf24" stroke-width="2.5"/></g>
+<text x="108" y="184" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#e8eef7" text-anchor="start">Boîte A</text>
+<text x="108" y="203" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="start">1,5 Go</text>
+<path d="M202 188 C 230 188, 225 340, 248 340" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"  marker-end="url(#mfbbf24)"/>
+<rect x="52" y="234" width="150" height="56" rx="12" fill="#15263f" stroke="#2b4a73"/>
+<g transform="translate(80,262) scale(0.9)"><rect x="-18" y="-12" width="36" height="24" rx="3" fill="none" stroke="#fbbf24" stroke-width="2.5"/><path d="M-18 -10 L0 4 L18 -10" fill="none" stroke="#fbbf24" stroke-width="2.5"/></g>
+<text x="108" y="258" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#e8eef7" text-anchor="start">Boîte B</text>
+<text x="108" y="277" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="start">&lt; 0,1 Go</text>
+<path d="M202 262 C 230 262, 225 340, 248 340" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"  marker-end="url(#mfbbf24)"/>
+<rect x="52" y="308" width="150" height="56" rx="12" fill="#15263f" stroke="#2b4a73"/>
+<g transform="translate(80,336) scale(0.9)"><rect x="-18" y="-12" width="36" height="24" rx="3" fill="none" stroke="#fbbf24" stroke-width="2.5"/><path d="M-18 -10 L0 4 L18 -10" fill="none" stroke="#fbbf24" stroke-width="2.5"/></g>
+<text x="108" y="332" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#e8eef7" text-anchor="start">Boîte C</text>
+<text x="108" y="351" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="start">&lt; 0,1 Go</text>
+<path d="M202 336 C 230 336, 225 340, 248 340" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"  marker-end="url(#mfbbf24)"/>
+<rect x="52" y="382" width="150" height="56" rx="12" fill="#15263f" stroke="#2b4a73"/>
+<g transform="translate(80,410) scale(0.9)"><rect x="-18" y="-12" width="36" height="24" rx="3" fill="none" stroke="#fbbf24" stroke-width="2.5"/><path d="M-18 -10 L0 4 L18 -10" fill="none" stroke="#fbbf24" stroke-width="2.5"/></g>
+<text x="108" y="406" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#e8eef7" text-anchor="start">Boîte D</text>
+<text x="108" y="425" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="start">10,7 Go</text>
+<path d="M202 410 C 230 410, 225 340, 248 340" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"  marker-end="url(#mfbbf24)"/>
+<rect x="52" y="456" width="150" height="56" rx="12" fill="#15263f" stroke="#2b4a73"/>
+<g transform="translate(80,484) scale(0.9)"><rect x="-18" y="-12" width="36" height="24" rx="3" fill="none" stroke="#fbbf24" stroke-width="2.5"/><path d="M-18 -10 L0 4 L18 -10" fill="none" stroke="#fbbf24" stroke-width="2.5"/></g>
+<text x="108" y="480" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#e8eef7" text-anchor="start">Boîte E</text>
+<text x="108" y="499" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="start">6,1 Go</text>
+<path d="M202 484 C 230 484, 225 340, 248 340" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"  marker-end="url(#mfbbf24)"/>
+<path d="M262.0 340.0 v0 a0.0 12 0 0 0 0 0 v0" fill="#10314a" stroke="#fbbf24" stroke-width="2.5"/>
+<ellipse cx="262" cy="340.0" rx="0.0" ry="12" fill="#173f5c" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="160" y="530" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#fbbf24" text-anchor="middle">2012 ➜ 2026 · ~30 000 mails</text>
+<path d="M310.0 297.0 v96 a35.0 12 0 0 0 70 0 v-96" fill="#2a2410" stroke="#fbbf24" stroke-width="2.5"/>
+<ellipse cx="345" cy="297.0" rx="35.0" ry="12" fill="#173f5c" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="345" y="345" font-family="DejaVu Sans" font-size="15" font-weight="800" fill="#fbbf24" text-anchor="middle">.pst</text>
+<text x="345" y="364" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#fbbf24" text-anchor="middle">18 Go</text>
+<text x="345" y="425" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="middle">sauvegarde</text>
+<text x="345" y="441" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="middle">lecture seule</text>
+<path d="M382 345 L414 345" fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"  marker-end="url(#mfbbf24)"/>
+<path d="M504 345 L539 345" fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round"  marker-end="url(#m2dd4bf)"/>
+<circle cx="460" cy="345" r="40" fill="#12233a" stroke="#2dd4bf" stroke-width="3"/>
+<g transform="translate(460,345)" fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-17" y="-10" width="30" height="21" rx="2"/><path d="M-17 -8 L-2 3 L13 -8"/><path d="M14 -18 v14 a5 5 0 0 1 -10 0 v-12 a3 3 0 0 1 6 0 v11"/></g>
+<circle cx="431.2" cy="316.2" r="12" fill="#2dd4bf"/>
+<text x="431.2" y="321.2" font-family="DejaVu Sans" font-size="13" font-weight="800" fill="#0d1828" text-anchor="middle">1</text>
+<text x="460" y="409" font-family="DejaVu Sans" font-size="14.5" font-weight="700" fill="#e8eef7" text-anchor="middle">Extraction</text>
+<text x="460" y="427" font-family="DejaVu Sans Mono" font-size="11.5" font-weight="400" fill="#2dd4bf" text-anchor="middle">extract.py</text>
+<rect x="404" y="437" width="112" height="22" rx="11" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".5"/>
+<text x="460" y="452" font-family="DejaVu Sans" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">8 607 fichiers</text>
+<path d="M629 345 L664 345" fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round"  marker-end="url(#m2dd4bf)"/>
+<circle cx="585" cy="345" r="40" fill="#12233a" stroke="#2dd4bf" stroke-width="3"/>
+<g transform="translate(585,345)" fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-12 -18 h16 l8 8 v28 h-24 z"/><path d="M4 -18 v8 h8"/><path d="M-7 -2 h14 M-7 4 h14 M-7 10 h9"/></g>
+<circle cx="556.2" cy="316.2" r="12" fill="#2dd4bf"/>
+<text x="556.2" y="321.2" font-family="DejaVu Sans" font-size="13" font-weight="800" fill="#0d1828" text-anchor="middle">2</text>
+<text x="585" y="409" font-family="DejaVu Sans" font-size="14.5" font-weight="700" fill="#e8eef7" text-anchor="middle">Lecture</text>
+<text x="585" y="427" font-family="DejaVu Sans Mono" font-size="11.5" font-weight="400" fill="#2dd4bf" text-anchor="middle">text.py</text>
+<rect x="529" y="437" width="112" height="22" rx="11" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".5"/>
+<text x="585" y="452" font-family="DejaVu Sans" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">PDF + Word</text>
+<path d="M754 345 L783 345" fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round"  marker-end="url(#m2dd4bf)"/>
+<circle cx="710" cy="345" r="40" fill="#12233a" stroke="#2dd4bf" stroke-width="3"/>
+<g transform="translate(710,345)" fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M0 -20 l16 6 v9 c0 11 -7 18 -16 23 c-9 -5 -16 -12 -16 -23 v-9 z"/><rect x="-6" y="-3" width="12" height="9" rx="1.5"/><path d="M-3.5 -3 v-3 a3.5 3.5 0 0 1 7 0 v3"/></g>
+<circle cx="681.2" cy="316.2" r="12" fill="#2dd4bf"/>
+<text x="681.2" y="321.2" font-family="DejaVu Sans" font-size="13" font-weight="800" fill="#0d1828" text-anchor="middle">3</text>
+<text x="710" y="409" font-family="DejaVu Sans" font-size="14.5" font-weight="700" fill="#e8eef7" text-anchor="middle">Confidentialité</text>
+<text x="710" y="427" font-family="DejaVu Sans Mono" font-size="11.5" font-weight="400" fill="#2dd4bf" text-anchor="middle">privacy.py</text>
+<rect x="654" y="437" width="112" height="22" rx="11" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".5"/>
+<text x="710" y="452" font-family="DejaVu Sans" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">mails + tél.</text>
+<path d="M885 345 L914 345" fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round"  marker-end="url(#m2dd4bf)"/>
+<circle cx="835" cy="345" r="54" fill="#a78bfa" opacity=".18" filter="url(#glow)"/>
+<circle cx="835" cy="345" r="46" fill="#12233a" stroke="#a78bfa" stroke-width="3"/>
+<g transform="translate(835,345)" fill="none" stroke="#a78bfa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-18 -16 h36 l-13 15 v13 l-10 6 v-19 z"/></g>
+<circle cx="801.88" cy="311.88" r="12" fill="#a78bfa"/>
+<text x="801.88" y="316.88" font-family="DejaVu Sans" font-size="13" font-weight="800" fill="#0d1828" text-anchor="middle">4</text>
+<text x="835" y="415" font-family="DejaVu Sans" font-size="14.5" font-weight="700" fill="#e8eef7" text-anchor="middle">Classification</text>
+<text x="835" y="433" font-family="DejaVu Sans Mono" font-size="11.5" font-weight="400" fill="#a78bfa" text-anchor="middle">classify.py</text>
+<rect x="779" y="443" width="112" height="22" rx="11" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".5"/>
+<text x="835" y="458" font-family="DejaVu Sans" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">12 catégories</text>
+<path d="M1004 345 L1039 345" fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round"  marker-end="url(#m2dd4bf)"/>
+<circle cx="960" cy="345" r="40" fill="#12233a" stroke="#2dd4bf" stroke-width="3"/>
+<g transform="translate(960,345)" fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-16" y="-16" width="20" height="26" rx="2"/><rect x="-4" y="-8" width="20" height="26" rx="2" fill="#15263f"/><path d="M2 5 l4 4 l7 -9"/></g>
+<circle cx="931.2" cy="316.2" r="12" fill="#2dd4bf"/>
+<text x="931.2" y="321.2" font-family="DejaVu Sans" font-size="13" font-weight="800" fill="#0d1828" text-anchor="middle">5</text>
+<text x="960" y="409" font-family="DejaVu Sans" font-size="14.5" font-weight="700" fill="#e8eef7" text-anchor="middle">Doublons</text>
+<text x="960" y="427" font-family="DejaVu Sans Mono" font-size="11.5" font-weight="400" fill="#2dd4bf" text-anchor="middle">dedup.py</text>
+<rect x="904" y="437" width="112" height="22" rx="11" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".5"/>
+<text x="960" y="452" font-family="DejaVu Sans" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">3 613 ➜ 3 028</text>
+<path d="M1129 345 L1164 345" fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round"  marker-end="url(#m2dd4bf)"/>
+<circle cx="1085" cy="345" r="40" fill="#12233a" stroke="#2dd4bf" stroke-width="3"/>
+<g transform="translate(1085,345)" fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-12 -18 h16 l8 8 v28 h-24 z"/><path d="M4 -18 v8 h8"/></g><text x="1085" y="354" font-family="DejaVu Sans" font-size="9" font-weight="800" fill="#2dd4bf" text-anchor="middle">PDF</text><g></g>
+<circle cx="1056.2" cy="316.2" r="12" fill="#2dd4bf"/>
+<text x="1056.2" y="321.2" font-family="DejaVu Sans" font-size="13" font-weight="800" fill="#0d1828" text-anchor="middle">6</text>
+<text x="1085" y="409" font-family="DejaVu Sans" font-size="14.5" font-weight="700" fill="#e8eef7" text-anchor="middle">Renommage</text>
+<text x="1085" y="427" font-family="DejaVu Sans Mono" font-size="11.5" font-weight="400" fill="#2dd4bf" text-anchor="middle">naming · convert</text>
+<rect x="1029" y="437" width="112" height="22" rx="11" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".5"/>
+<text x="1085" y="452" font-family="DejaVu Sans" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">Word ➜ PDF</text>
+<circle cx="1210" cy="345" r="40" fill="#12233a" stroke="#2dd4bf" stroke-width="3"/>
+<g transform="translate(1210,345)" fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-17" y="-15" width="34" height="30" rx="2"/><path d="M-17 -5 h34 M-17 5 h34 M-5 -15 v30 M7 -15 v30"/></g>
+<circle cx="1181.2" cy="316.2" r="12" fill="#2dd4bf"/>
+<text x="1181.2" y="321.2" font-family="DejaVu Sans" font-size="13" font-weight="800" fill="#0d1828" text-anchor="middle">7</text>
+<text x="1210" y="409" font-family="DejaVu Sans" font-size="14.5" font-weight="700" fill="#e8eef7" text-anchor="middle">Recensement</text>
+<text x="1210" y="427" font-family="DejaVu Sans Mono" font-size="11.5" font-weight="400" fill="#2dd4bf" text-anchor="middle">report.py</text>
+<rect x="1154" y="437" width="112" height="22" rx="11" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".5"/>
+<text x="1210" y="452" font-family="DejaVu Sans" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">100 % traçable</text>
+<rect x="691" y="168" width="88" height="80" rx="14" fill="#15263f" stroke="#2dd4bf" stroke-opacity=".7"/>
+<g transform="translate(735,195)" fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-13" y="-17" width="26" height="34" rx="2"/><path d="M-7 -8 l2 2 l4 -4 M3 -7 h5 M-7 2 l2 2 l4 -4 M3 3 h5 M-7 11 h15"/></g>
+<text x="735" y="228" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#e8eef7" text-anchor="middle">Règles métier</text>
+<text x="735" y="242" font-family="DejaVu Sans" font-size="10.5" font-weight="400" fill="#94a8c2" text-anchor="middle">rules.yaml</text>
+<path d="M735 250 C 735 275, 835 270, 835 289" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-dasharray=4 5 marker-end="url(#m2dd4bf)"/>
+<rect x="791" y="168" width="88" height="80" rx="14" fill="#15263f" stroke="#a78bfa" stroke-opacity=".7"/>
+<g transform="translate(835,195)" fill="none" stroke="#a78bfa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="0" r="13"/><path d="M0 -13 v26 M-13 0 h8 M5 0 h8 M-7 -7 l4 4 M7 7 l-4 -4"/></g>
+<text x="835" y="228" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#e8eef7" text-anchor="middle">IA</text>
+<text x="835" y="242" font-family="DejaVu Sans" font-size="10.5" font-weight="400" fill="#94a8c2" text-anchor="middle">cas ambigus</text>
+<path d="M835 250 C 835 275, 835 270, 835 289" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-dasharray=4 5 marker-end="url(#ma78bfa)"/>
+<rect x="891" y="168" width="88" height="80" rx="14" fill="#15263f" stroke="#fb7185" stroke-opacity=".7"/>
+<g transform="translate(935,195)" fill="none" stroke="#fb7185" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="-8" r="7"/><path d="M-13 15 c0 -10 6 -14 13 -14 s13 4 13 14"/></g>
+<text x="935" y="228" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#e8eef7" text-anchor="middle">Humain</text>
+<text x="935" y="242" font-family="DejaVu Sans" font-size="10.5" font-weight="400" fill="#94a8c2" text-anchor="middle">valide</text>
+<path d="M935 250 C 935 275, 835 270, 835 289" fill="none" stroke="#fb7185" stroke-width="2" stroke-linecap="round" stroke-dasharray=4 5 marker-end="url(#mfb7185)"/>
+<text x="835" y="160" font-family="DejaVu Sans" font-size="1" font-weight="400" fill="#e8eef7" text-anchor="middle"></text>
+<rect x="1000" y="180" width="140" height="44" rx="10" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".5"/>
+<text x="1070" y="198" font-family="DejaVu Sans" font-size="11.5" font-weight="700" fill="#a78bfa" text-anchor="middle">texte masqué</text>
+<text x="1070" y="214" font-family="DejaVu Sans" font-size="11" font-weight="400" fill="#94a8c2" text-anchor="middle">avant tout appel IA</text>
+<path d="M1353.0 180.0 v70 a85.0 12 0 0 0 170 0 v-70" fill="#10273d" stroke="#2dd4bf" stroke-width="2.5"/>
+<ellipse cx="1438" cy="180.0" rx="85.0" ry="12" fill="#173f5c" stroke="#2dd4bf" stroke-width="2.5"/>
+<text x="1438" y="213" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#e8eef7" text-anchor="middle">Candidats</text>
+<text x="1438" y="232" font-family="DejaVu Sans" font-size="13" font-weight="800" fill="#2dd4bf" text-anchor="middle">3 028 CV</text>
+<text x="1438" y="279" font-family="DejaVu Sans" font-size="11" font-weight="400" fill="#94a8c2" text-anchor="middle">« NOM Prénom.pdf »</text>
+<path d="M1254 345 C 1300 345, 1300 215, 1348 215" fill="none" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="round"  marker-end="url(#m2dd4bf)"/>
+<path d="M1353.0 305.0 v70 a85.0 12 0 0 0 170 0 v-70" fill="#10273d" stroke="#60a5fa" stroke-width="2.5"/>
+<ellipse cx="1438" cy="305.0" rx="85.0" ry="12" fill="#173f5c" stroke="#60a5fa" stroke-width="2.5"/>
+<text x="1438" y="338" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#e8eef7" text-anchor="middle">Administrative</text>
+<text x="1438" y="357" font-family="DejaVu Sans" font-size="13" font-weight="800" fill="#60a5fa" text-anchor="middle">538 documents</text>
+<text x="1438" y="404" font-family="DejaVu Sans" font-size="11" font-weight="400" fill="#94a8c2" text-anchor="middle">contrats · factures</text>
+<path d="M1254 345 C 1300 345, 1300 340, 1348 340" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"  marker-end="url(#m60a5fa)"/>
+<path d="M1353.0 430.0 v70 a85.0 12 0 0 0 170 0 v-70" fill="#10273d" stroke="#fbbf24" stroke-width="2.5"/>
+<ellipse cx="1438" cy="430.0" rx="85.0" ry="12" fill="#173f5c" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="1438" y="463" font-family="DejaVu Sans" font-size="14" font-weight="700" fill="#e8eef7" text-anchor="middle">Portefeuille</text>
+<text x="1438" y="482" font-family="DejaVu Sans" font-size="13" font-weight="800" fill="#fbbf24" text-anchor="middle">250+ placements</text>
+<text x="1438" y="529" font-family="DejaVu Sans" font-size="11" font-weight="400" fill="#94a8c2" text-anchor="middle">350+ clients · 86 à relancer</text>
+<path d="M1254 345 C 1300 345, 1300 465, 1348 465" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round"  marker-end="url(#mfbbf24)"/>
+<rect x="300" y="568" width="700" height="250" rx="18" fill="#ffffff" fill-opacity="0.025" stroke="#2b4a73" stroke-dasharray="6 6"/>
+<text x="316" y="806" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#94a8c2" text-anchor="start">RIEN N'EST SUPPRIMÉ PAR LE PROGRAMME : TOUT EST RANGÉ ET TRACÉ</text>
+<path d="M710 475 C 710 600, 430 590, 430 624" fill="none" stroke="#fb7185" stroke-width="2" stroke-linecap="round" stroke-dasharray=5 6 marker-end="url(#mfb7185)"/>
+<path d="M835 475 C 835 600, 430 590, 430 624" fill="none" stroke="#fb7185" stroke-width="2" stroke-linecap="round" stroke-dasharray=5 6 marker-end="url(#mfb7185)"/>
+<rect x="335" y="630" width="190" height="156" rx="16" fill="#15263f" stroke="#fb7185" stroke-opacity=".6"/>
+<g transform="translate(430,664)" fill="none" stroke="#fb7185" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 -4 l6 -12 h28 l6 12 v14 h-40 z"/><path d="M-20 -4 h12 l3 5 h10 l3 -5 h12"/></g>
+<text x="430" y="708" font-family="DejaVu Sans Mono" font-size="14" font-weight="800" fill="#fb7185" text-anchor="middle">_RETIRES</text>
+<text x="430" y="730" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#e8eef7" text-anchor="middle">1 846 CV anonymes</text>
+<text x="430" y="749" font-family="DejaVu Sans" font-size="11.5" font-weight="400" fill="#94a8c2" text-anchor="middle">510 privés · 216 sensibles</text>
+<text x="430" y="766" font-family="DejaVu Sans" font-size="11.5" font-weight="400" fill="#94a8c2" text-anchor="middle">quittances, RIB, diplômes</text>
+<path d="M835 475 C 835 600, 650 590, 650 624" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-dasharray=5 6 marker-end="url(#ma78bfa)"/>
+<rect x="555" y="630" width="190" height="156" rx="16" fill="#15263f" stroke="#a78bfa" stroke-opacity=".6"/>
+<g transform="translate(650,664)" fill="none" stroke="#a78bfa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 -4 l6 -12 h28 l6 12 v14 h-40 z"/><path d="M-20 -4 h12 l3 5 h10 l3 -5 h12"/></g>
+<text x="650" y="708" font-family="DejaVu Sans Mono" font-size="14" font-weight="800" fill="#a78bfa" text-anchor="middle">_A_VERIFIER</text>
+<text x="650" y="730" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#e8eef7" text-anchor="middle">cas incertains</text>
+<text x="650" y="749" font-family="DejaVu Sans" font-size="11.5" font-weight="400" fill="#94a8c2" text-anchor="middle">validation humaine</text>
+<text x="650" y="766" font-family="DejaVu Sans" font-size="11.5" font-weight="400" fill="#94a8c2" text-anchor="middle">avant toute décision</text>
+<path d="M960 475 C 960 600, 870 590, 870 624" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-dasharray=5 6 marker-end="url(#m60a5fa)"/>
+<rect x="775" y="630" width="190" height="156" rx="16" fill="#15263f" stroke="#60a5fa" stroke-opacity=".6"/>
+<g transform="translate(870,664)" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 -4 l6 -12 h28 l6 12 v14 h-40 z"/><path d="M-20 -4 h12 l3 5 h10 l3 -5 h12"/></g>
+<text x="870" y="708" font-family="DejaVu Sans Mono" font-size="14" font-weight="800" fill="#60a5fa" text-anchor="middle">_DOUBLONS</text>
+<text x="870" y="730" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#e8eef7" text-anchor="middle">585 CV entre boîtes</text>
+<text x="870" y="749" font-family="DejaVu Sans" font-size="11.5" font-weight="400" fill="#94a8c2" text-anchor="middle">174 doublons exacts</text>
+<text x="870" y="766" font-family="DejaVu Sans" font-size="11.5" font-weight="400" fill="#94a8c2" text-anchor="middle">version récente gardée</text>
+<rect x="36" y="568" width="250" height="250" rx="18" fill="#ffffff" fill-opacity="0.025" stroke="#2b4a73" stroke-dasharray="6 6"/>
+<text x="52" y="592" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#94a8c2" text-anchor="start">ENTONNOIR</text>
+<path d="M45.0 606 h232 l-14 56 h-204 z" fill="#fbbf24" fill-opacity=".16" stroke="#fbbf24" stroke-width="2"/>
+<text x="161" y="632" font-family="DejaVu Sans" font-size="18" font-weight="800" fill="#fbbf24" text-anchor="middle">~30 000</text>
+<text x="161" y="650" font-family="DejaVu Sans" font-size="11.5" font-weight="400" fill="#e8eef7" text-anchor="middle">mails</text>
+<path d="M66.0 672 h190 l-14 56 h-162 z" fill="#e3b341" fill-opacity=".16" stroke="#e3b341" stroke-width="2"/>
+<text x="161" y="698" font-family="DejaVu Sans" font-size="18" font-weight="800" fill="#e3b341" text-anchor="middle">8 607</text>
+<text x="161" y="716" font-family="DejaVu Sans" font-size="11.5" font-weight="400" fill="#e8eef7" text-anchor="middle">pièces jointes</text>
+<path d="M86.0 738 h150 l-14 56 h-122 z" fill="#2dd4bf" fill-opacity=".16" stroke="#2dd4bf" stroke-width="2"/>
+<text x="161" y="764" font-family="DejaVu Sans" font-size="18" font-weight="800" fill="#2dd4bf" text-anchor="middle">3 566</text>
+<text x="161" y="782" font-family="DejaVu Sans" font-size="11.5" font-weight="400" fill="#e8eef7" text-anchor="middle">documents utiles</text>
+<rect x="1014" y="568" width="538" height="250" rx="18" fill="#ffffff" fill-opacity="0.025" stroke="#2b4a73" stroke-dasharray="6 6"/>
+<text x="1030" y="592" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#94a8c2" text-anchor="start">PROTECTION DES DONNÉES (RGPD)</text>
+<g transform="translate(1070,640)" fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M0 -22 l18 7 v10 c0 12 -8 20 -18 25 c-10 -5 -18 -13 -18 -25 v-10 z"/><path d="M-7 0 l5 5 l9 -10"/></g>
+<circle cx="1118" cy="608" r="9" fill="#2dd4bf" fill-opacity=".18" stroke="#2dd4bf"/>
+<path d="M1113 608 l3 3 l6 -6" stroke="#2dd4bf" stroke-width="2" fill="none"/>
+<text x="1136" y="612" font-family="DejaVu Sans" font-size="13.5" font-weight="400" fill="#e8eef7" text-anchor="start">Aucune donnée réelle sur GitHub</text>
+<circle cx="1118" cy="638" r="9" fill="#2dd4bf" fill-opacity=".18" stroke="#2dd4bf"/>
+<path d="M1113 638 l3 3 l6 -6" stroke="#2dd4bf" stroke-width="2" fill="none"/>
+<text x="1136" y="642" font-family="DejaVu Sans" font-size="13.5" font-weight="400" fill="#e8eef7" text-anchor="start">Contrôle automatique avant chaque envoi</text>
+<circle cx="1118" cy="668" r="9" fill="#2dd4bf" fill-opacity=".18" stroke="#2dd4bf"/>
+<path d="M1113 668 l3 3 l6 -6" stroke="#2dd4bf" stroke-width="2" fill="none"/>
+<text x="1136" y="672" font-family="DejaVu Sans" font-size="13.5" font-weight="400" fill="#e8eef7" text-anchor="start">Boîtes pseudonymisées, domaine seul</text>
+<circle cx="1118" cy="698" r="9" fill="#2dd4bf" fill-opacity=".18" stroke="#2dd4bf"/>
+<path d="M1113 698 l3 3 l6 -6" stroke="#2dd4bf" stroke-width="2" fill="none"/>
+<text x="1136" y="702" font-family="DejaVu Sans" font-size="13.5" font-weight="400" fill="#e8eef7" text-anchor="start">Sauvegardes .pst jamais modifiées</text>
+<circle cx="1118" cy="728" r="9" fill="#2dd4bf" fill-opacity=".18" stroke="#2dd4bf"/>
+<path d="M1113 728 l3 3 l6 -6" stroke="#2dd4bf" stroke-width="2" fill="none"/>
+<text x="1136" y="732" font-family="DejaVu Sans" font-size="13.5" font-weight="400" fill="#e8eef7" text-anchor="start">CV : 2 ans après le dernier contact</text>
+<circle cx="1118" cy="758" r="9" fill="#2dd4bf" fill-opacity=".18" stroke="#2dd4bf"/>
+<path d="M1113 758 l3 3 l6 -6" stroke="#2dd4bf" stroke-width="2" fill="none"/>
+<text x="1136" y="762" font-family="DejaVu Sans" font-size="13.5" font-weight="400" fill="#e8eef7" text-anchor="start">11 tests · intégration continue</text>
+<rect x="36" y="836" width="1516" height="190" rx="18" fill="#ffffff" fill-opacity="0.025" stroke="#2b4a73" stroke-dasharray="6 6"/>
+<text x="52" y="860" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#94a8c2" text-anchor="start">TRAJECTOIRE : RELANCE DE L'ACTIVITÉ DE RECRUTEMENT</text>
+<line x1="150" y1="930" x2="1440" y2="930" stroke="#2b4a73" stroke-width="4"/>
+<line x1="150" y1="930" x2="760" y2="930" stroke="#2dd4bf" stroke-width="4"/>
+<path d="M1440 930 L1500 930" fill="none" stroke="#94a8c2" stroke-width="4" stroke-linecap="round"  marker-end="url(#m94a8c2)"/>
+<circle cx="200" cy="930" r="13" fill="#0d1828" stroke="#2dd4bf" stroke-width="4"/>
+<circle cx="200" cy="930" r="6" fill="#2dd4bf"/>
+<text x="200" y="894" font-family="DejaVu Sans" font-size="13.5" font-weight="800" fill="#2dd4bf" text-anchor="middle">Phase 0 · livré</text>
+<text x="200" y="966" font-family="DejaVu Sans" font-size="13" font-weight="700" fill="#e8eef7" text-anchor="middle">Veille d'annonces, pige</text>
+<text x="200" y="986" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="middle">et outil de test (stage)</text>
+<circle cx="560" cy="930" r="22" fill="#2dd4bf" opacity=".25" filter="url(#glow)"/>
+<circle cx="560" cy="930" r="13" fill="#0d1828" stroke="#2dd4bf" stroke-width="4"/>
+<circle cx="560" cy="930" r="6" fill="#2dd4bf"/>
+<text x="560" y="894" font-family="DejaVu Sans" font-size="13.5" font-weight="800" fill="#2dd4bf" text-anchor="middle">Phase 1 · livré</text>
+<text x="560" y="966" font-family="DejaVu Sans" font-size="13" font-weight="700" fill="#e8eef7" text-anchor="middle">Reprise des archives mail</text>
+<text x="560" y="986" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="middle">ce projet</text>
+<circle cx="920" cy="930" r="13" fill="#0d1828" stroke="#fbbf24" stroke-width="4"/>
+<text x="920" y="894" font-family="DejaVu Sans" font-size="13.5" font-weight="800" fill="#fbbf24" text-anchor="middle">Phase 2 · novembre 2026</text>
+<text x="920" y="966" font-family="DejaVu Sans" font-size="13" font-weight="700" fill="#e8eef7" text-anchor="middle">CRM candidats et clients</text>
+<text x="920" y="986" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="middle">alimenté par ces bases</text>
+<circle cx="1280" cy="930" r="13" fill="#0d1828" stroke="#94a8c2" stroke-width="4"/>
+<text x="1280" y="894" font-family="DejaVu Sans" font-size="13.5" font-weight="800" fill="#94a8c2" text-anchor="middle">Phase 3 · envisagé</text>
+<text x="1280" y="966" font-family="DejaVu Sans" font-size="13" font-weight="700" fill="#e8eef7" text-anchor="middle">Rapprochement CV ↔ offres</text>
+<text x="1280" y="986" font-family="DejaVu Sans" font-size="12" font-weight="400" fill="#94a8c2" text-anchor="middle">recherche sémantique</text>
+<text x="56" y="1070" font-family="DejaVu Sans" font-size="12.5" font-weight="400" fill="#94a8c2" text-anchor="start">Birane WANE · Data &amp; IA · github.com/BiraneWANE/Cabinet-Rh-mail-data-recovery</text>
+<text x="1530" y="1070" font-family="DejaVu Sans" font-size="12.5" font-weight="400" fill="#94a8c2" text-anchor="end">Chiffres agrégés · aucune donnée personnelle</text>
+</svg>
