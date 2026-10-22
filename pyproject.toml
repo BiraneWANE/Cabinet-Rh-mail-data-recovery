@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mailrecovery"
+version = "1.0.0"
+description = "Reprise de données : transformer 14 ans d'archives mail en bases candidats, administrative et clients"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Birane WANE" }]
+dependencies = [
+  "pypdf>=4.0",
+  "python-docx>=1.1",
+  "openpyxl>=3.1",
+  "PyYAML>=6.0",
+  "reportlab>=4.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+mailrecovery = "mailrecovery.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

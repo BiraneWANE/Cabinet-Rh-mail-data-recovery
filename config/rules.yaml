@@ -1,0 +1,45 @@
+# Règles de classification, écrites avec la cliente à partir de son métier.
+# Chaque catégorie a des mots-clés cherchés dans le NOM du fichier (poids fort)
+# et dans le TEXTE du document (poids plus faible). Le score le plus haut gagne ;
+# sous le seuil, le document part en « à vérifier » pour un contrôle humain.
+#
+# Tout est en minuscules et sans accents (le texte est normalisé avant comparaison).
+
+threshold: 2.0
+filename_weight: 2.0
+text_weight: 1.0
+
+categories:
+  sans_interet:   # retirés en priorité : ils ressemblent souvent à des CV ou à des contrats
+    filename: [quittance, rib, diplome, attestation, releve de notes, certificat de scolarite, avis d'imposition]
+    text: [quittance de loyer, releve d'identite bancaire, iban, a obtenu le diplome, certifie que]
+  facture:
+    filename: [facture, avoir, fact_, invoice]
+    text: [facture n, montant ht, total ttc, net a payer, tva non applicable, avoir n]
+  contrat:
+    filename: [contrat, convention, cgv, conditions generales, accord cadre, mandat]
+    text: [entre les soussignes, il a ete convenu, conditions generales, honoraires, objet du contrat, fait en deux exemplaires]
+  embauche:
+    filename: [promesse, embauche, confirmation d'embauche, lettre d'engagement]
+    text: [promesse d'embauche, date de prise de poste, periode d'essai, nous avons le plaisir de vous confirmer]
+  offre:
+    filename: [fiche de poste, offre, annonce, job description]
+    text: [missions principales, profil recherche, nous recherchons, poste a pourvoir, type de contrat]
+  suivi:
+    filename: [suivi, tableau, placements, reporting]
+    text: [candidats presentes, date de placement, statut]
+  test:
+    filename: [test, exercice, cas pratique, evaluation]
+    text: [test technique, questionnaire, cas pratique, temps imparti]
+  interne:
+    filename: [kbis, statuts, procedure, process, presentation du cabinet]
+    text: [extrait kbis, statuts de la societe, procedure interne]
+  cv:
+    filename: [cv, curriculum, resume]
+    text: [experience professionnelle, experiences professionnelles, formation, competences, langues, centres d'interet, logiciels, cabinet d'expertise comptable]
+  prive:
+    filename: [ecole, creche, mutuelle perso, vacances]
+    text: [cantine, reservation sejour, carte vitale]
+
+# Un CV doit contenir au moins ce nombre de rubriques typiques pour être retenu
+cv_min_sections: 2

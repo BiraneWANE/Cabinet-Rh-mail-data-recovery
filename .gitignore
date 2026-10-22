@@ -1,0 +1,53 @@
+# ============================================================
+#  AUCUNE DONNÉE RÉELLE NE DOIT JAMAIS ENTRER DANS CE DÉPÔT
+# ============================================================
+
+# Sauvegardes et mails
+*.pst
+*.ost
+*.eml
+*.msg
+*.mbox
+
+# Documents (CV, contrats, factures...)
+*.pdf
+*.doc
+*.docx
+*.odt
+*.rtf
+
+# Tableurs (recensements, portefeuille clients)
+*.xls
+*.xlsx
+*.ods
+*.csv
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Dossiers de travail et de sortie
+data/
+BASE*/
+ARCHIVE*/
+_TRI*/
+demo_output/
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
