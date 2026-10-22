@@ -175,6 +175,7 @@ git config core.hooksPath .githooks  # active le garde-fou avant chaque commit
 | Minimisation | seul le domaine de l'expéditeur est conservé dans le recensement, jamais l'adresse complète |
 | Sources intactes | les .pst sont lus en lecture seule et conservés tels quels |
 | IA sous contrôle | texte masqué avant tout appel à un modèle ; données traitées sur le poste de la cliente |
+| Durée de conservation | CV utilisés au plus 2 ans après le dernier contact avec le candidat (recommandation CNIL), candidats recontactés par mailing, droit de refus dans chaque message |
 
 Détails : [docs/confidentialite-rgpd.md](docs/confidentialite-rgpd.md)
 

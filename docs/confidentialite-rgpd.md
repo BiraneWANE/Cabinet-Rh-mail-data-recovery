@@ -33,4 +33,18 @@ CV, noms de candidats ou de clients, adresses mail, numéros de téléphone, con
 | Sécurité | traitement local, sources conservées en lecture seule |
 | Limitation de conservation | les documents retirés sont isolés pour que la cliente décide de leur suppression |
 
-Point d'attention transmis à la cliente : avant de recontacter d'anciens candidats, prévoir un message d'information sur la conservation de leur CV et la possibilité de demander sa suppression.
+## Durée de conservation des CV
+
+Recommandation de la CNIL : un CV peut rester dans la base active **2 ans après le dernier contact** avec le candidat (et non 2 ans après la date du CV). Au‑delà, il sort de la base active.
+
+Application dans ce projet :
+
+| Règle | Mise en œuvre |
+|---|---|
+| Point de départ des 2 ans | le dernier contact avec le candidat ; les candidats de la base ont été recontactés par mailing il y a moins de 2 ans |
+| Preuve | la date d'envoi et la liste des destinataires du mailing sont conservées |
+| Droit de refus | chaque nouveau message indique comment demander la suppression de son CV ; les demandes sont appliquées |
+| Candidats sans contact depuis plus de 2 ans | leur CV ne sert plus au recrutement |
+| Outil | le pipeline enregistre la date du mail d'origine de chaque CV (`mail_date`), ce qui permet de repérer les CV proches de la limite |
+
+Prochaine étape (CRM de novembre 2026) : suivre pour chaque candidat la date du dernier contact et son accord, avec une alerte avant l'échéance des 2 ans.
