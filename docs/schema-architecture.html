@@ -1,0 +1,107 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<style>
+@page{size:420mm 297mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1587px;height:1122px;font-family:"DejaVu Sans","Liberation Sans",Arial,sans-serif;background:#0f1b2d;color:#e8eef7;padding:44px 56px;position:relative;overflow:hidden}
+.bg{position:absolute;inset:0;background:radial-gradient(1200px 600px at 85% -10%,#1d3b66 0,transparent 60%),radial-gradient(900px 500px at -10% 110%,#173a4a 0,transparent 60%);z-index:0}
+.wrap{position:relative;z-index:1}
+h1{font-size:40px;font-weight:800;letter-spacing:-.5px}
+h1 span{color:#5eead4}
+.sub{font-size:18px;color:#9fb3cc;margin-top:8px}
+.kpis{display:flex;gap:14px;margin-top:26px}
+.kpi{flex:1;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:14px 16px}
+.kpi b{display:block;font-size:30px;font-weight:800;color:#fff}
+.kpi small{font-size:13px;color:#9fb3cc}
+.kpi.in b{color:#fbbf24}.kpi.out b{color:#5eead4}
+.flow{display:flex;align-items:stretch;gap:0;margin-top:34px}
+.step{flex:1;background:#14253d;border:1px solid #27466f;border-radius:16px;padding:16px 14px 14px;position:relative;min-height:232px}
+.step .n{position:absolute;top:-15px;left:14px;width:30px;height:30px;border-radius:50%;background:#5eead4;color:#0f1b2d;font-weight:800;font-size:15px;display:flex;align-items:center;justify-content:center}
+.step h3{font-size:17px;margin-top:8px;color:#fff}
+.step .mod{font-family:"DejaVu Sans Mono",monospace;font-size:12px;color:#5eead4;margin-top:4px}
+.step p{font-size:13px;color:#b9c7da;margin-top:10px;line-height:1.45}
+.step .stat{margin-top:12px;font-size:13px;font-weight:700;color:#fbbf24}
+.arrow{width:26px;display:flex;align-items:center;justify-content:center;color:#5eead4;font-size:24px;font-weight:800}
+.step.ai{border-color:#8b5cf6;background:#1c1f45}
+.step.ai .n{background:#a78bfa}
+.lower{display:flex;gap:22px;margin-top:30px}
+.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:18px 20px}
+.box h4{font-size:15px;text-transform:uppercase;letter-spacing:1.2px;color:#9fb3cc;margin-bottom:12px}
+.out{flex:1.35}
+.tree{font-family:"DejaVu Sans Mono",monospace;font-size:13.5px;line-height:1.75;color:#dbe6f3}
+.tree .c{color:#5eead4;font-weight:700}.tree .g{color:#7f93ad}
+.side{flex:1;display:flex;flex-direction:column;gap:22px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{font-size:12.5px;padding:7px 11px;border-radius:999px;background:#13314a;border:1px solid #23577a;color:#cfe3f5}
+.pill.r{background:#3a1d2a;border-color:#7a2f4a;color:#f6c6d6}
+.pill.v{background:#2a234f;border-color:#5b4bb0;color:#ddd6fe}
+.road{display:flex;gap:10px}
+.ph{flex:1;border-radius:12px;padding:12px;background:#14253d;border:1px solid #27466f}
+.ph b{font-size:13px;color:#5eead4;display:block}
+.ph span{font-size:12.5px;color:#cbd6e4;display:block;margin-top:5px;line-height:1.4}
+.ph.now{border-color:#5eead4;background:#123a3d}
+.ph.next b{color:#fbbf24}
+.foot{position:absolute;bottom:-46px;left:0;right:0;display:flex;justify-content:space-between;font-size:12.5px;color:#7f93ad}
+.bars{display:flex;flex-direction:column;gap:8px}
+.bar{display:grid;grid-template-columns:270px 1fr 60px;align-items:center;gap:12px;font-size:13px;color:#cbd6e4}
+.bar i{display:block;height:12px;border-radius:6px;background:linear-gradient(90deg,#f472b6,#fb7185)}
+.bar b{text-align:right;color:#fff}
+</style></head><body><div class="bg"></div><div class="wrap">
+<h1>Reprise de données : <span>archives mail ➜ bases exploitables</span></h1>
+<div class="sub">Architecture du pipeline · 14 ans d'archives d'un cabinet de recrutement transformées pour relancer l'activité</div>
+
+<div class="kpis">
+ <div class="kpi in"><b>5</b><small>boîtes mail Outlook, 2012 ➜ 2026</small></div>
+ <div class="kpi in"><b>~18 Go</b><small>de sauvegardes .pst</small></div>
+ <div class="kpi in"><b>~30 000</b><small>mails passés en revue</small></div>
+ <div class="kpi in"><b>8 607</b><small>pièces jointes triées</small></div>
+ <div class="kpi out"><b>3 028</b><small>CV exploitables</small></div>
+ <div class="kpi out"><b>538</b><small>documents administratifs</small></div>
+ <div class="kpi out"><b>250+</b><small>placements recensés</small></div>
+</div>
+
+<div class="flow">
+ <div class="step"><div class="n">1</div><h3>Extraction</h3><div class="mod">extract.py</div><p>Sauvegarde .pst lue en lecture seule, mails convertis, pièces jointes sorties avec date, sens et domaine.</p><div class="stat">18 Go ➜ 8 607 fichiers</div></div>
+ <div class="arrow">›</div>
+ <div class="step"><div class="n">2</div><h3>Lecture</h3><div class="mod">text.py</div><p>Texte des PDF et Word, normalisé. Empreinte de contenu pour reconnaître un même CV en Word et en PDF.</p><div class="stat">empreinte SHA‑1 du texte</div></div>
+ <div class="arrow">›</div>
+ <div class="step"><div class="n">3</div><h3>Confidentialité</h3><div class="mod">privacy.py</div><p>Détection des mails et téléphones. Un CV sans contact sort de la base. Masquage avant tout appel IA.</p><div class="stat">1 846 CV anonymes retirés</div></div>
+ <div class="arrow">›</div>
+ <div class="step ai"><div class="n">4</div><h3>Classification</h3><div class="mod">classify.py + rules.yaml</div><p>Règles métier explicables en premier, IA uniquement sur les cas ambigus, humain en dernier recours.</p><div class="stat">12 catégories</div></div>
+ <div class="arrow">›</div>
+ <div class="step"><div class="n">5</div><h3>Dédoublonnage</h3><div class="mod">dedup.py</div><p>Fusion des 5 boîtes. Doublons exacts (SHA‑256) et de contenu. On garde la version la plus récente.</p><div class="stat">3 613 ➜ 3 028 CV (‑16 %)</div></div>
+ <div class="arrow">›</div>
+ <div class="step"><div class="n">6</div><h3>Renommage + PDF</h3><div class="mod">naming.py · convert.py</div><p><span style='white-space:nowrap'>« NOM Prénom »</span>, <span style='white-space:nowrap'>« Contrat_Société_Année »</span>. Tous les Word convertis, homonymes protégés.</p><div class="stat">~2 900 Word ➜ 0</div></div>
+ <div class="arrow">›</div>
+ <div class="step"><div class="n">7</div><h3>Recensement</h3><div class="mod">report.py</div><p>Classeur Excel de contrôle : base, à vérifier, retirés, doublons. Chaque ligne dit quelle règle a décidé.</p><div class="stat">100 % traçable</div></div>
+</div>
+
+<div class="lower">
+ <div class="box out"><h4>Base livrée à la cliente</h4>
+ <div class="tree"><span class="c">BASE_FUSIONNEE/</span><br>
+ ├── <span class="c">1_BASE_CANDIDATS/</span> CV_complets <span class="g">· 3 028 CV « NOM Prénom.pdf »</span><br>
+ ├── <span class="c">2_BASE_ADMINISTRATIVE/</span> <span class="g">· 538 documents</span><br>
+ │&nbsp;&nbsp;&nbsp;├── Factures_et_avoirs <span class="g">220</span> · Contrats_et_conventions <span class="g">174</span><br>
+ │&nbsp;&nbsp;&nbsp;└── Documents_internes <span class="g">58</span> · Embauches <span class="g">50</span> · Offres <span class="g">36</span><br>
+ ├── <span class="c">3_PORTEFEUILLE_CLIENTS/</span> <span class="g">· 350+ clients, 86 à relancer, ~5 900 prospects</span><br>
+ ├── <span class="c">_RETIRES/ _DOUBLONS/ _A_VERIFIER/</span> <span class="g">· rien n'est supprimé par le programme</span><br>
+ └── <span class="c">RECENSEMENT.xlsx</span></div>
+ <h4 style="margin-top:22px">Ce que le tri a écarté</h4>
+ <div class="bars">
+  <div class="bar"><span>CV anonymes (candidat injoignable)</span><i style="width:88%"></i><b>1 846</b></div>
+  <div class="bar"><span>Documents privés hors périmètre</span><i style="width:24%"></i><b>510</b></div>
+  <div class="bar"><span>CV en double entre boîtes</span><i style="width:28%"></i><b>585</b></div>
+  <div class="bar"><span>Documents sensibles isolés</span><i style="width:10%"></i><b>216</b></div>
+  <div class="bar"><span>Doublons exacts pendant le tri</span><i style="width:8%"></i><b>174</b></div>
+ </div></div>
+ <div class="side">
+  <div class="box"><h4>Garde‑fous</h4><div class="pills">
+   <span class="pill r">.pst jamais modifiés</span><span class="pill r">0 donnée réelle sur GitHub</span><span class="pill r">contrôle anti‑données avant chaque envoi</span><span class="pill">boîtes pseudonymisées</span><span class="pill">domaine seul, jamais l'adresse</span><span class="pill v">texte masqué avant l'IA</span><span class="pill v">validation humaine</span><span class="pill">CV : 2 ans après le dernier contact</span><span class="pill">11 tests · intégration continue</span></div></div>
+  <div class="box"><h4>Trajectoire</h4><div class="road">
+   <div class="ph"><b>Phase 0 · livré</b><span>Veille d'annonces, pige et outil de test (stage)</span></div>
+   <div class="ph now"><b>Phase 1 · livré</b><span>Reprise des archives mail (ce projet)</span></div>
+   <div class="ph next"><b>Phase 2 · nov. 2026</b><span>CRM candidats et clients</span></div>
+   <div class="ph"><b>Phase 3</b><span>Rapprochement CV et offres</span></div></div></div>
+ </div>
+</div>
+<div class="foot"><span>Birane WANE · Data &amp; IA · github.com/BiraneWANE/Cabinet-Rh-mail-data-recovery</span><span>Chiffres agrégés · aucune donnée personnelle</span></div>
+</div></body></html>

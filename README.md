@@ -24,6 +24,11 @@ Une cliente, dirigeante d'un **cabinet de recrutement spécialisé dans l'expert
 
 ---
 
+<p align="center"><a href="docs/schema-architecture.pdf"><img src="docs/schema-architecture.png" alt="Schéma d'architecture du pipeline" width="100%"></a></p>
+<p align="center"><sub>📄 <a href="docs/schema-architecture.pdf">Télécharger le schéma en PDF</a></sub></p>
+
+---
+
 ## 📊 Le point de départ : un volume énorme et désordonné
 
 | | Avant |

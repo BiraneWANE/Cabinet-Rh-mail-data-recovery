@@ -51,3 +51,6 @@ dist/
 Thumbs.db
 desktop.ini
 .env
+
+# Exception : le schéma d'architecture (aucune donnée, chiffres agrégés)
+!docs/schema-architecture.pdf

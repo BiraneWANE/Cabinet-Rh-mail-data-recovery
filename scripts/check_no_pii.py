@@ -21,6 +21,8 @@ ALLOWED_DOMAINS = ("example.com", "example.org", "users.noreply.github.com", "an
 EMAIL_RE = re.compile(r"[\w.+\-]+@([\w\-]+\.[\w.\-]+)")
 PHONE_RE = re.compile(r"(?:(?:\+|00)33\s?[1-9]|\b0[1-9])(?:[\s.\-]?\d{2}){4}\b")
 SKIP = {"scripts/check_no_pii.py"}
+# Documents produits par le projet lui-même, sans aucune donnée personnelle
+ALLOWED_FILES = {"docs/schema-architecture.pdf"}
 
 
 def tracked_files() -> list[Path]:
@@ -34,7 +36,7 @@ def main() -> int:
     for f in tracked_files():
         if f.as_posix() in SKIP or not f.exists():
             continue
-        if f.suffix.lower() in FORBIDDEN_EXT:
+        if f.suffix.lower() in FORBIDDEN_EXT and f.as_posix() not in ALLOWED_FILES:
             problems.append(f"{f} : type de fichier interdit (données)")
             continue
         try:
